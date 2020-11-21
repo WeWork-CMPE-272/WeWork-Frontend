@@ -1,0 +1,34 @@
+{
+    "development": {
+        "region": "us-east-1",
+        "userPool": "us-east-1_EJZvOmHNo",
+        "userPoolBaseUri": "https://wework.auth.us-east-1.amazoncognito.com",
+        "clientId": "4o51re3l1efti96inu3rrc8o0u",
+        "callbackUri": "http://localhost:3000/callback",
+        "signoutUri": "http://localhost:3000",
+        "tokenScopes": [
+            "openid",
+            "email",
+            "profile"
+        ],
+        "employeeUri": "http://localhost:4000/employee",
+        "loginUri": "http://localhost:4001/login"
+    },
+
+    "production": {
+        "region": "us-east-1",
+        "userPool": "us-east-1_EJZvOmHNo",
+        "userPoolBaseUri": "https://wework.auth.us-east-1.amazoncognito.com",
+        "clientId": "4o51re3l1efti96inu3rrc8o0u",
+        "callbackUri": "https://we-work.info/callback",
+        "signoutUri": "https://we-work.info",
+        "tokenScopes": [
+            "openid",
+            "email",
+            "profile"
+        ],
+        "employeeUri": "http://employee.we-work.info/employee",
+        "loginUri": "http://login.we-work.info/login"
+
+    }
+}
